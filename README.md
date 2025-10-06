@@ -8,6 +8,36 @@ We generate physiologically realistic pulsatile signals, corrupt them with param
 
 ---
 
+## Framework Pipeline
+
+<p align="center">
+  <img src="figures/pipeline.png" width="850">
+</p>
+
+---
+
+## Example: Pulsation Tracing in Noisy NIRS Signal
+
+Below we demonstrate how the model tracks pulsations during an experimental near-infrared spectroscopy (NIRS) measurement, under artifacts and noise introduced by deliberate **fiber shaking**.
+The LSTM output is compared against **Discrete Wavelet Transform (DWT)** and **Temporal Derivative Distribution Repair (TDDR)** corrections, showing superior recovery of pulsations.
+
+<p align="center">
+  <img src="figures/pulsation_tracing_in_noisy_signal.png" width="700">
+</p>
+
+---
+
+## Example: Pulse Segmentation and Averaging
+
+The cleaned LSTM signal allows **robust peak/valley detection**, enabling easy segmentation and averaging of pulsatile waveforms.  
+Here we show **PPG** and **DCS** examples, where averaging produces stable morphology with reduced variance, critical for downstream physiological analysis.
+
+<p align="center">
+  <img src="figures/pulse_segmentation_and_averaging.png" width="700">
+</p>
+
+---
+
 ## Repository Structure
 
 ### `data_generation/`

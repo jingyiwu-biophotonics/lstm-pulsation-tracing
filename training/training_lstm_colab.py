@@ -131,7 +131,12 @@ We now need to organize the data into a dataset (and a loader of this dataset). 
 new_data_x = data[..., 0:1].float()   # x (input) should be the noisy time-series
 new_data_y = data[..., 1:].float()    # y (target) should be the clean time-series
 
-random.seed(42)
+# for reproducibility
+# SEED = 42
+# np.random.seed(SEED)             # NumPy RNG
+# torch.manual_seed(SEED)          # PyTorch CPU ops
+# torch.cuda.manual_seed_all(SEED) # PyTorch CUDA ops (all GPUs, if used)
+
 order = np.random.permutation(list(range(new_data_x.shape[0])))
 new_data_x = new_data_x[order]
 new_data_y = new_data_y[order]

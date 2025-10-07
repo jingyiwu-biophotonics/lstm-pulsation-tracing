@@ -6,7 +6,7 @@ This repository accompanies the paper:
 
 We generate physiologically realistic pulsatile signals, corrupt them with parameterized artifacts, and train a bidirectional LSTM to **trace and denoise cardiac pulsations** without annotated clinical datasets. The framework supports downstream analyses such as **heart‑rate (HR) estimation**, **pulse segmentation**, and **waveform averaging**, and is designed to be easily extended to new devices and noise conditions.
 
----
+
 
 ## Framework Pipeline
 
@@ -25,7 +25,7 @@ The LSTM output is compared against **Discrete Wavelet Transform (DWT)** and **T
   <img src="figures/pulsation_tracing_in_noisy_signal.png" width="700">
 </p>
 
----
+
 
 ## Example: Pulse Segmentation and Averaging
 
@@ -36,7 +36,7 @@ Here we show **PPG** and **DCS** examples, where averaging produces stable morph
   <img src="figures/pulse_segmentation_and_averaging.png" width="700">
 </p>
 
----
+
 
 ## Repository Structure
 
@@ -54,7 +54,7 @@ MATLAB code for building synthetic datasets.
 
 See [`data_generation/README_data_generation.md`](data_generation/README_data_generation.md) for details.
 
----
+
 
 ### `training/`
 Colab‑first workflow and scripts for model training.
@@ -66,7 +66,7 @@ Colab‑first workflow and scripts for model training.
 
 See [`training/README_training.md`](training/README_training.md) for instructions and Colab links.
 
----
+
 
 ### `testing/`
 Notebooks and scripts for evaluating trained models on **experimental** and **synthetic** data.
@@ -87,7 +87,7 @@ Notebooks and scripts for evaluating trained models on **experimental** and **sy
 
 See [`testing/README_testing.md`](testing/README_testing.md) for details.
 
----
+
 
 ## Quick Start
 
@@ -118,7 +118,7 @@ python testing_pulsation_tracing.py
 4. **Open in Colab (optional)**
 - Use the Colab badges/links in the `training` and `testing` READMEs to open notebooks directly from GitHub.
 
----
+
 
 ## Models
 
@@ -130,7 +130,7 @@ Pre‑trained weights are placed in `testing/models/`:
 
 See `testing/models/README.md` for details and checksums.
 
----
+
 
 ## Licensing
 
@@ -139,7 +139,7 @@ See `testing/models/README.md` for details and checksums.
 
 > If you plan to reuse or redistribute the datasets, please retain the original attribution and license notices.
 
----
+
 
 ## Citation
 
@@ -160,7 +160,7 @@ If you use this repository, please cite:
 }
 ```
 
----
+
 
 ## Contact
 **Jingyi Wu** — jingyiwu@andrew.cmu.edu

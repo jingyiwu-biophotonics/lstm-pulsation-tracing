@@ -3,12 +3,11 @@
 This folder contains trained LSTM models using synthetic datasets of pulsatile signals with varying noise conditions.  
 Each model corresponds to a different ablation or training configuration described in the paper.
 
----
 
 ## Available Models
 
 - **`lstm_full_dataset.pt`**  
-  Trained on the **full dataset** of 120,000 samples (40,000 per pulse archetype: single peak, closer double peak, farther double peak).  
+  Trained on the **full dataset** of 80,000 samples (40,000 single-peak pulses and 20,000 each for closely spaced and widely spaced double-peak pulses).  
   Includes all simulated noise and artifact types.
 
 - **`lstm_reduced_dataset.pt`**  
@@ -21,7 +20,6 @@ Each model corresponds to a different ablation or training configuration describ
   Trained only on **single-peak pulsatile signals** (40,000 samples).  
   Useful for examining model performance when restricted to one pulse archetype.
 
----
 
 ## Notes
 

@@ -4,8 +4,8 @@ This repository accompanies the paper:
 
 **“A Synthetic-Data-Driven LSTM Framework for Tracing Cardiac Pulsation in Optical Signals.”**  
 
-*Authors:* Jingyi Wu\*, Shaojie Bai\*, Zeynep Ozkaya, Justin A. Patel, Emily Skog, Alexander Ruesch, Matthew A. Smith, and Jana M. Kainerstorfer  
-\*These authors contributed equally.  
+*Authors: Jingyi Wu\*, Shaojie Bai\*, Zeynep Ozkaya, Justin A. Patel, Emily Skog, Alexander Ruesch, Matthew A. Smith, and Jana M. Kainerstorfer  
+\*These authors contributed equally.*
 
 *Biomedical Optics Express* (2025). [https://doi.org/10.1364/BOE.574286](https://doi.org/10.1364/BOE.574286)
 

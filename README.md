@@ -156,19 +156,18 @@ This repository contains components under **three different licenses**:
 ## Citation
 
 If you use this repository, please cite:
-
 > Wu, J.\*, Bai, S.\*, Ozkaya, Z., Patel, J. A., Skog, E., Ruesch, A., Smith, M. A., & Kainerstorfer, J. M. (2025).  
-> *A Synthetic-Data-Driven LSTM Framework for Tracing Cardiac Pulsation in Optical Signals.* **Biomedical Optics Express**.  
+> *A Synthetic-Data-Driven LSTM Framework for Tracing Cardiac Pulsation in Optical Signals.*  
+> Biomedical Optics Express. [https://doi.org/10.1364/BOE.574286](https://doi.org/10.1364/BOE.574286)  
 > \*These authors contributed equally.
 
-
-
-```
+```bibtex
 @article{wu2025lstm_pulsation_tracing,
   title   = {A Synthetic-Data-Driven LSTM Framework for Tracing Cardiac Pulsation in Optical Signals},
   author  = {Wu, Jingyi and Bai, Shaojie and Ozkaya, Zeynep and Patel, Justin A. and Skog, Emily and Ruesch, Alexander and Smith, Matthew A. and Kainerstorfer, Jana M.},
   journal = {Biomedical Optics Express},
   year    = {2025},
+  doi     = {10.1364/BOE.574286}
 }
 ```
 

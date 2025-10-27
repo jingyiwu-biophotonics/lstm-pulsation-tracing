@@ -2,7 +2,6 @@
 
 This folder contains small synthetic datasets used to evaluate the LSTM framework for pulsation tracing. These datasets were generated with controlled noise and artifacts, allowing benchmarking of model performance under known ground truth.
 
----
 
 ## Datasets
 
@@ -18,7 +17,7 @@ This folder contains small synthetic datasets used to evaluate the LSTM framewor
 - **`synthetic_dataset3.mat`**  
   - *Not used in the paper.*  
   - Same signals as `synthetic_dataset1`, but with **no colored noise**.  
----
+
 
 ## Data Format
 
@@ -32,14 +31,11 @@ Each dataset has the following structure:
     - Clean ground truth signal  
     - Raw noisy signal  
 
----
-
 ## Visualization
 
 - **`plot_dataset_signal.m`**  
   A MATLAB script for visualizing signals in the synthetic datasets.  
 
----
 
 ## Contact
 Jingyi Wu — jingyiwu@andrew.cmu.edu

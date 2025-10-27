@@ -128,7 +128,7 @@ python testing_pulsation_tracing.py
 ## Models
 
 Pre‑trained weights are placed in `testing/models/`:
-- `lstm_full_datase.pt` – main model (trained on 120k synthetic samples).
+- `lstm_full_datase.pt` – main model (trained on 80,000 synthetic samples).
 - `lstm_reduced_dataset.pt` – ablation (reduced dataset size).
 - `lstm_reduced_no_colored_noise.pt` – ablation (no colored noise).
 - `lstm_single_peak.pt` – trained on single‑peak pulses only (useful for HR tracking).

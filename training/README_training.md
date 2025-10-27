@@ -2,8 +2,6 @@
 
 This folder contains resources for **training** the LSTM-based cardiac pulsation tracing model.  
 
----
-
 ## Contents
 
 - **`train_lstm_colab.ipynb`**  
@@ -24,8 +22,6 @@ This folder contains resources for **training** the LSTM-based cardiac pulsation
 - **`data/convert_mat_to_npz.ipynb`**  
   Utility notebook for converting large `.mat` datasets into compressed `.npz` format for PyTorch training. Supports optional sharding for splitting very large datasets.  
 
----
-
 ## Data
 
 - **Small example dataset (in repo):**  
@@ -38,10 +34,8 @@ This folder contains resources for **training** the LSTM-based cardiac pulsation
     - Channel 1: clean signal (ground truth)
 
 - **Full dataset (on CMU KiltHub):**  
-  For complete training, download the full dataset (`dataset_full.npz`) hosted on [CMU KiltHub](https://kilthub.cmu.edu/), which contains 120,000 samples (4,000 from each pulse type).
+  For complete training, download the full dataset (`dataset_v0_training.npz`) hosted on [CMU KiltHub](https://doi.org/10.1184/R1/30090361).
 
-
----
 
 ## Workflow
 
@@ -59,12 +53,10 @@ This folder contains resources for **training** the LSTM-based cardiac pulsation
    - Save `.pt` model weights (see testing folder).  
    - Use the testing notebook (`testing/testing_pulsation_tracing.ipynb`) to evaluate performance on new signals.  
 
----
 
 ## Notes 
 - For details on inference and testing, see the `testing/` folder. 
 
----
 
 ## Contact
 For questions:  

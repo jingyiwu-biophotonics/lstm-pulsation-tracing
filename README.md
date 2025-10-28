@@ -57,7 +57,7 @@ MATLAB code for building synthetic datasets.
   - `visualize_artifact.m` – artifact demonstrations.
   - `visualize_synthetic_signal.m` – clean vs. noisy signal demo.
 
-See [`data_generation/README_data_generation.md`](data_generation/README_data_generation.md) for details.
+See [`data_generation/README.md`](data_generation/README.md) for details.
 
 
 
@@ -69,7 +69,7 @@ Colab‑first workflow and scripts for model training.
 - `data/` – utilities such as `convert_mat_to_npz.ipynb` and example `.npz` dataset.
   - Full dataset downloadable from KiltHub (link in the folder README).
 
-See [`training/README_training.md`](training/README_training.md) for instructions and Colab links.
+See [`training/README.md`](training/README.md) for instructions and Colab links.
 
 
 
@@ -90,7 +90,7 @@ Notebooks and scripts for evaluating trained models on **experimental** and **sy
   - `utils/` – helper modules shared by notebooks/scripts.
 - `requirements_test.txt` – Python dependencies for testing.
 
-See [`testing/README_testing.md`](testing/README_testing.md) for details.
+See [`testing/README.md`](testing/README.md) for details.
 
 
 

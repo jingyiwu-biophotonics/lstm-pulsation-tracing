@@ -8,7 +8,7 @@ This folder contains resources for **training** the LSTM-based cardiac pulsation
   Main Google Colab notebook for training the LSTM model on synthetic pulsation data.  
   Includes data loading, preprocessing, model definition, training loops, and evaluation.  
   Launch directly in Colab:  
-  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jingyiwu-biophotonics/LSTM-Pulsation-Tracing/blob/main/training/train_lstm_colab.ipynb)
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jingyiwu-biophotonics/lstm-pulsation-tracing/blob/main/training/train_lstm_colab.ipynb)
 
 - **`train_lstm_colab.py`** 
   Python script version of the notebook, auto-exported for convenience.
